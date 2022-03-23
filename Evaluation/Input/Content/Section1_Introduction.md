@@ -2,7 +2,7 @@ The presented PBPK model of omeprazole has been developed to be used in a PBPK D
 
 Omeprazole is a proton pump inhibitor (PPI) for the treatment of gastric acid related diseases. Omeprazole is administered as a racemic mixture of its two enantiomers, S-omeprazole and R-omeprazole.
 
-The following ADME characteristics for (R-/S-) omeprazole were taken from omeprazole 20 mg capsule [FDA SPC](#5-References):
+The following ADME characteristics for (R-/S-) omeprazole were taken from omeprazole 20 mg capsule [FDA SPC](#5-references):
 
 **Absorption**: Absorption of (R-/S-) omeprazole is rapid, with peak plasma levels occurring approximately 1-2 hours after dose. Absorption of omeprazole takes place in the small intestine and is usually completed within 3-6 hours. The systemic availability (bioavailability) from a single oral dose of omeprazole is approximately 40%. After repeated once-daily administration, the bioavailability increases to about 60%.
 
@@ -14,4 +14,4 @@ The following ADME characteristics for (R-/S-) omeprazole were taken from omepra
 
 **Linearity/non-linearity:** The AUC of omeprazole increases with repeated administration following a non-linear dose-AUC relationship. This time- and dose- dependency is due to a decrease of first pass metabolism and systemic clearance probably caused by an inhibition of the CYP2C19 enzyme by omeprazole and/or its metabolites (e.g. the sulphone).
 
-**Stereoselectivity:** Because both enantiomers are substrates and inhibitors of CYP2C19, the PK profile of each enantiomer is expected to differ when the racemic mixture is administered as compared to as a single agent because of mutual inhibition between the enantiomers ([Äbelö 2000](#5-References)). The Ki for R-omeprazole is 2-5 higher compared to S-omeprazole ([Liu 2005](#5-References), [Wu 2014](#5-References)).
+**Stereoselectivity:** Because both enantiomers are substrates and inhibitors of CYP2C19, the PK profile of each enantiomer is expected to differ when the racemic mixture is administered as compared to as a single agent because of mutual inhibition between the enantiomers ([Äbelö 2000](#5-references)). The Ki for R-omeprazole is 2-5 higher compared to S-omeprazole ([Liu 2005](#5-references), [Wu 2014](#5-references)).
