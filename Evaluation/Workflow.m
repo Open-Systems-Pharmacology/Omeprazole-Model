@@ -7,9 +7,9 @@ tic
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'c:\Program Files\Open Systems Pharmacology\QualificationRunner 9.0';
-markdownJoinerFolder = 'c:\Program Files\Open Systems Pharmacology\markdown-joiner';
-PKSimPortableFolder = 'd:\Work\PK-Sim\';
+qualificationRunnerFolder = 'c:\Program Files\Open Systems Pharmacology\QualificationRunner 10';
+markdownJoinerFolder = 'c:\Program Files\Open Systems Pharmacology\markdown-joiner\';
+PKSimPortableFolder = 'd:\Work\OSPS\Repos\PK-Sim10.0\';
 
 % --------------------------------------------------------------
 % replace basisDir and qualificationPlanName with your paths
@@ -68,6 +68,6 @@ MarkdownJoiner_path=fullfile(markdownJoinerFolder,'markdown-joiner.exe');
 %status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '"']);
 
 % alternative #2: (CAUTION) ReportOutput_path will be cleared first
-status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '" -f']);
+status = system(['powershell.exe ."' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '" -f']);
 
 if status~=0 error('MarkdownJoiner failed'); end

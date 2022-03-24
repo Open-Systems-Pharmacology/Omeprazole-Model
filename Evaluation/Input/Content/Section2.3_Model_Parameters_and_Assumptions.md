@@ -1,6 +1,6 @@
 ### 2.3.1 Absorption
 
-The model parameter `Specific intestinal permeability`  for S-omeprazole was optimized to best match clinical data (see  [Section 2.3.4](#234-automated-parameter-identification)). The same parameter value was assumed for R-omeprazole.
+The model parameter `Specific intestinal permeability`  for S-omeprazole was optimized to best match clinical data (see  [Section 2.3.4](#235-automated-parameter-identification)). The same parameter value was assumed for R-omeprazole.
 
 The dissolution of the capsule formulation was implemented via an empirical Weibull dissolution equation with parameters `Dissolution time (50% dissolved)` and `Dissolution shape` fitted to observed data. A `Lag time ` = 30 min was used to account for the gastric emptying time.
 
