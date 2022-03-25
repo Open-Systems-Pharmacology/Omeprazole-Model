@@ -14,7 +14,7 @@
 
 **DrugBank DB00176** (https://www.drugbank.ca/drugs/DB00176)
 
-**FDA Nexium Review** FDA – Clinical Pharmacology and Biopharmacutics Review – Nexium delayed-Release Capsules – Esomeprazole sodium – Application number 21-153/21-154
+**FDA Nexium Review** FDA – Clinical Pharmacology and Biopharmaceutics Review – Nexium delayed-Release Capsules – Esomeprazole sodium – Application number 21-153/21-154
 
 **FDA SPC** FDA_ClinPharmReview LuvoxCR, NDA 22-033, FDADrug_42.pdf, website: https://scholararchive.ohsu.edu/downloads/6m311p63g?locale=en
 
