@@ -8,7 +8,7 @@ The following ADME characteristics for (R-/S-) omeprazole were taken from omepra
 
 **Distribution**: The apparent volume of distribution in healthy subjects is approximately 0.3 l/kg body weight. Omeprazole is 97% plasma protein bound.
 
-**Metabolism**: (R-/S-) Omeprazole is completely metabolised by the cytochrome P450 system (CYP). The major part of its metabolism is dependent on the polymorphically expressed CYP2C19, responsible for the formation of hydroxyomeprazole, the major metabolite in plasma. The remaining part is dependent on another specific isoform, CYP3A4, responsible for the formation of omeprazole sulphone. As a consequence of high affinity of omeprazole to CYP2C19, there is a potential for competitive inhibition and metabolic drug-drug interactions. No metabolite has been found to be pharmacologically active.
+**Metabolism**: (R-/S-) Omeprazole is completely metabolized by the cytochrome P450 system (CYP). The major part of its metabolism is dependent on the polymorphically expressed CYP2C19, responsible for the formation of hydroxyomeprazole, the major metabolite in plasma. The remaining part is dependent on another specific isoform, CYP3A4, responsible for the formation of omeprazole sulphone. As a consequence of high affinity of omeprazole to CYP2C19, there is a potential for competitive inhibition and metabolic drug-drug interactions. No metabolite has been found to be pharmacologically active.
 
 **Elimination**: Almost 80% of an oral dose of omeprazole is excreted as metabolites in the urine, the remainder in the faeces, primarily originating from bile secretion.
 

@@ -4,23 +4,23 @@ The model includes distinct molecules for S- and R-omeprazole, the racemic omepr
 
 In general, the following step-wise workflow was followed:
 
-1a Define distribution and metabolism for S-omeprazole
+1a. Define distribution and metabolism for S-omeprazole
 
-1b.Mechanism based inactivation of CYP2C19 by omeprazole
+1b. Mechanism based inactivation of CYP2C19 by omeprazole
 
-2.Define S-omeprazole absorption based on p.o. 
+2. Define S-omeprazole absorption based on p.o. 
 
-3.Capsule formulation 
+3. Capsule formulation 
 
 - 3a. Building racemic omeprazole
 
 - 3b. Adjust CYP2C19 expression in gut
 
-4.Define metabolism for R-omeprazole
+4. Define metabolism for R-omeprazole
 
-5.Refine CYP3A4 metabolism on CYP2C19 PM data
+5. Refine CYP3A4 metabolism on CYP2C19 PM data
 
-6.Refine CYP2C19 metabolism on CYP2C19 EM data
+6. Refine CYP2C19 metabolism on CYP2C19 EM data
 
 The predefined “Standard European Male for DDI” individual was used (age = 30 y, weight = 73 kg, height = 176 cm, BMI = 23.57 kg/m2) until stated otherwise. CYP2C19 expression from the PK-Sim in-built RT-PCR database was added and adjusted as described in [Section 2.3.3](#233-metabolism-and-elimination).
 
