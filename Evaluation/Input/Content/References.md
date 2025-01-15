@@ -16,7 +16,7 @@
 
 **FDA Nexium Review** FDA – Clinical Pharmacology and Biopharmaceutics Review – Nexium delayed-Release Capsules – Esomeprazole sodium – Application number 21-153/21-154
 
-**FDA SPC** FDA_ClinPharmReview LuvoxCR, NDA 22-033, FDADrug_42.pdf, website: https://scholararchive.ohsu.edu/downloads/6m311p63g?locale=en
+**FDA SPC** FDA_ClinPharmReview LuvoxCR, NDA 22-033, FDADrug_42.pdf, website: https://www.accessdata.fda.gov/drugsatfda_docs/nda/2008/022033s000_ClinPharmR.pdf
 
 **Galetin and Houston 2006** Galetin A, Houston JB. Intestinal and hepatic metabolic activity of five cytochrome P450 enzymes: impact on prediction of first-pass metabolism. *J Pharmacol Exp Ther*. 2006;318(3):1220-1229. 
 
