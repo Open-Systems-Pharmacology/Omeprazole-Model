@@ -291,417 +291,417 @@
                 "SectionReference": "model-verification"
             }
         ],
-        "GOFMergedPlots": [
-            {
-                "Title": "S-omeprazole concentration in plasma - mean data",
-                "SectionReference": "diagnostics-plots",
-                "Artifacts": [
-                    "Plot",
-                    "GMFE",
-                    "Measure"
-                ],
-                "PlotTypes": [
-                    "predictedVsObserved",
-                    "residualsOverTime"
-                ],
-                "Groups": [
-                    {
-                        "Caption": "iv administration (model building)",
-                        "Symbol": "Cross",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.1.Esomeprazole IV 20 mg - 5d QD (Hassan-Alin2000)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hassan-Alin2000.Esomeprazole.20mg.IV_30min_infusion",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.2. Esomeprazole IV 40 mg - 5d QD (Hassan-Alin2000, Wilder-Smith2005)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Hassan-Alin2000.Esomeprazole.40mg.IV_30min_infusion",
-                                    "Wilder-Smith2005.Esomeprazole.40mg.IV_30min_infusion_Day1",
-                                    "Wilder-Smith2005.Esomeprazole.40mg.IV_30min_infusion_Day5"
-                                ],
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.3. Esomeprazole IV 40mg(30min)+8mg/h - (Rohss2007)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rohss2007_Esomeprazole.40mg(30min)+8mg/h.IV_bolus+cnt_infusion",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.4. Esomeprazole IV 80mg(30min)+4mg/h - SD (Rohss2007)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rohss2007_Esomeprazole.80mg(30min)+4mg/h.IV_bolus+cnt_infusion",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.5. Esomeprazole IV 80mg(30min)+8mg/h - SD (Rohss2007) - pred",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rohss2007_Esomeprazole.80mg(30min)+8mg/h.IV_bolus+cnt_infusion",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.6. Esomeprazole IV 120mg(30min)+8mg/h - SD (Rohss2007)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rohss2007_Esomeprazole.120mg(30min)+8mg/h.IV_bolus+cnt_infusion",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.7. Esomeprazole IV 120mg(2h)+8mg/h - SD (Rohss2007).",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rohss2007_Esomeprazole.120mg(2h)+8mg/h.IV_bolus+cnt_infusion",
-                                "Color": "#FF8000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Oral administration (model building)",
-                        "Symbol": "TriangleOpen",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.9 - Esomeprazole PO 40 mg oral solution- 5d QD (Hassan-Alin2005)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hassan-Alin2005.Esomeprazole.40mg.po 1",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.8 - Esomeprazole PO 20 mg oral solution- 5d QD (Hassan-Alin2005).",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hassan-Alin2005.Esomeprazole.20mg.po 1",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.12 - SD in PM (no 2C19CL) - Esomeprazole PO 40 mg - FDA",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "FDA_Esomeprazole.40mg.po_PM",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "Esomeprazole PO 40 mg capsule - 5d QD (Wilder-Smith2005)- with Fit formulation",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Wilder-Smith2005.Esomeprazole.40mg.po_Day1",
-                                    "Wilder-Smith2005.Esomeprazole.40mg.po_Day5"
-                                ],
-                                "Color": "#FF8000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Oral administration (model validation)",
-                        "Symbol": "Triangle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.9 - Esomeprazole PO 40 mg oral solution- 5d QD (Hassan-Alin2005)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hassan-Alin2005.Esomeprazole.40mg.po 1",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.8 - Esomeprazole PO 20 mg oral solution- 5d QD (Hassan-Alin2005).",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hassan-Alin2005.Esomeprazole.20mg.po 1",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.12 - SD in PM (no 2C19CL) - Esomeprazole PO 40 mg - FDA",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "FDA_Esomeprazole.40mg.po_PM",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.11 - SD in EM - Esomeprazole PO 40 mg- FDA - same schema as E.9",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "FDA_Esomeprazole.40mg.po_EM",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.13 - MD in EM - Esomeprazole PO 15 mg solution (Andersson2000)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson2000.Esomeprazole.15mg.po.EM",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "E.14 - MD in PM (no 2C19CL) - Esomeprazole PO 60 mg solution (Andersson2000)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson2000.Esomeprazole.60mg.po.PM",
-                                "Color": "#00ffbf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": "R-omeprazole concentration in plasma - mean data",
-                "SectionReference": "diagnostics-plots",
-                "Artifacts": [
-                    "Plot",
-                    "GMFE",
-                    "Measure"
-                ],
-                "PlotTypes": [
-                    "predictedVsObserved",
-                    "residualsOverTime"
-                ],
-                "Groups": [
-                    {
-                        "Caption": "Oral administration (model building)",
-                        "Symbol": "Triangle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "R.3 - R-omeprazole po 15 mg - 7d QD (Andersson2000) - EM",
-                                "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson2000 from Andersson2001-.R-omeprazole.15.po.EM",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "R.1 - R-omeprazole po 20 mg - 5d QD (Hassan-Alin2005)",
-                                "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Hassan-Alin2005 from Wu2014 - R-omeprazole.20mg.po",
-                                    "Hassan-Alin2005 from Wu2014 - R-omeprazole.20mg.po.Day5",
-                                    "Hassan-Alin2005.R-omeprazole.20mg.po"
-                                ],
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "R.2 - R-omeprazole po 40 mg - 5d QD (Hassan-Alin2005)",
-                                "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hassan-Alin2005.R-omeprazole.40mg.po",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "R.4 - R-omeprazole po 60 mg - 7d QD (Andersson2000) - PM - CL Fit",
-                                "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson2000 from Andersson2001-.R-omeprazole.60.po.PM",
-                                "Color": "#FF8000"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": "Omeprazole concentration in plasma - mean data",
-                "SectionReference": "diagnostics-plots",
-                "Artifacts": [
-                    "Plot",
-                    "GMFE",
-                    "Measure"
-                ],
-                "PlotTypes": [
-                    "predictedVsObserved",
-                    "residualsOverTime"
-                ],
-                "Groups": [
-                    {
-                        "Caption": "Oral administration (model validation)",
-                        "Symbol": "Triangle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O8. Omeprazole po 20 mg - oral solution - SD and MD",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Hassan-Alin2005.Omeprazole.20mg.po",
-                                    "Regardh1990.Omeprazole.20mg.po_7",
-                                    "Regardh1990.Omeprazole.20mg.po_Median"
-                                ],
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O8. Omeprazole po 20 mg - 5d QD - capsule",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Andersson1998.Omeprazole.20mg.po_EM",
-                                    "Andersson1991.Omeprazole.20mg.po_Day1",
-                                    "Andersson1991.Omeprazole.20mg.po_Day5"
-                                ],
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O7. Omeprazole po 40mg - oral solution- SD and MD",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Hassan-Alin2005.Omeprazole.40mg.po",
-                                    "Andersson1990.Omeprazole.40mg.po",
-                                    "Andersson1991.Omeprazole.40mg.po_Day1",
-                                    "Andersson1991.Omeprazole.40mg.po_Day5"
-                                ],
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O9. Omeprazole po 15 mg - oral solution - (Andersson2000) - MD in EM",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson2000 from Andersson2001-.Omeprazole.15.po.EM",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O91. Omeprazole po 80 mg - oral solution - SD",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson1990.Omeprazole.80mg.po",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O7. Omeprazole po 40 mg - 5d QD japanese - capsule - EM",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Uno2007.Omeprazole.40mg.po_hmEM",
-                                    "Uno2007.Omeprazole.40mg.po_htEM"
-                                ],
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O8. Omeprazole po 20 mg - 5d QD - capsule - PM",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson1998.Omeprazole.20mg.po_PM",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O.9. Omeprazole DDI without fluvoxamine",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yasui-Furukori2004.omeprazole.40mg.po.japanese hmEM 1",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O.1. pop - Omeprazole po 20 mg - DDI without moclobemide - (Cho2002)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cho2002.Mean Ompz.20mg.po.EM",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O.1. pop - Omeprazole po 20 mg - DDI without moclobemide - (Cho2002)_pm",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Cho2002.Mean Ompz.20mg.po.PM",
-                                    "Uno2007.Omeprazole.40mg.po_PM"
-                                ],
-                                "Color": "#00ffbf"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Oral administration (model building)",
-                        "Symbol": "TriangleOpen",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O92. Omeprazole po 60 mg - oral solution - MD in PM",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson2000 from Andersson2001-.Omeprazole.60.po.PM",
-                                "Color": "#FF8000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "iv administration (model building)",
-                        "Symbol": "SquareOpen",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O6. Omeprazole iv 80mg",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Andersson1990.Omeprazole.80mg.iv",
-                                    "Oosterhuis1992.Omeprazole.80mg.IV_5min_infusion"
-                                ],
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O1. Omeprazole iv 10 mg - SD (Regardh1990) - PM",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Regardh1990.Omeprazole.10mg.IV_5min_infusion_2",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O2. Omeprazole iv 20 mg - SD in PM (Uno2007)",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Uno2007.Omeprazole.20mg.iv bolus_PM",
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O3. Omeprazole iv 40 mg - SD",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Oosterhuis1992.Omeprazole.40mg.IV_2.5min_infusion",
-                                    "Andersson1990.Omeprazole.40mg.iv",
-                                    "Andersson1991.Omeprazole.40mg.iv.Day1"
-                                ],
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O4. Omeprazole iv 20 mg - SD",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Andersson1991.Omeprazole.20mg.iv.Day1",
-                                    "Uno2007.Omeprazole.20mg.iv bolus_hmEM"
-                                ],
-                                "Color": "#FF8000"
-                            },
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O5. Omeprazole iv 10mg",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": [
-                                    "Regardh1990.Omeprazole.10mg.IV_5min_infusion_7",
-                                    "Regardh1990.Omeprazole.10mg.IV_5min_infusion_Median"
-                                ],
-                                "Color": "#FF8000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "iv administration (model validation)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
-                            {
-                                "Project": "Omeprazole",
-                                "Simulation": "O5. Omeprazole iv 10mg",
-                                "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Andersson1991.Omeprazole.10mg.iv.Day1",
-                                "Color": "#00ffbf"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+    "GOFMergedPlots": [
+        {
+            "Title": "S-omeprazole concentration in plasma - mean data",
+            "SectionReference": "diagnostics-plots",
+            "Artifacts": [
+                "Plot",
+                "GMFE",
+                "Measure"
+            ],
+            "PlotTypes": [
+                "predictedVsObserved",
+                "residualsOverTime"
+            ],
+            "Groups": [
+                {
+                    "Caption": "iv administration (model building)",
+                    "Symbol": "ThinCross",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.1.Esomeprazole IV 20 mg - 5d QD (Hassan-Alin2000)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Hassan-Alin2000.Esomeprazole.20mg.IV_30min_infusion",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.2. Esomeprazole IV 40 mg - 5d QD (Hassan-Alin2000, Wilder-Smith2005)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Hassan-Alin2000.Esomeprazole.40mg.IV_30min_infusion",
+                                "Wilder-Smith2005.Esomeprazole.40mg.IV_30min_infusion_Day1",
+                                "Wilder-Smith2005.Esomeprazole.40mg.IV_30min_infusion_Day5"
+                            ],
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.3. Esomeprazole IV 40mg(30min)+8mg/h - (Rohss2007)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Rohss2007_Esomeprazole.40mg(30min)+8mg/h.IV_bolus+cnt_infusion",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.4. Esomeprazole IV 80mg(30min)+4mg/h - SD (Rohss2007)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Rohss2007_Esomeprazole.80mg(30min)+4mg/h.IV_bolus+cnt_infusion",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.5. Esomeprazole IV 80mg(30min)+8mg/h - SD (Rohss2007) - pred",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Rohss2007_Esomeprazole.80mg(30min)+8mg/h.IV_bolus+cnt_infusion",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.6. Esomeprazole IV 120mg(30min)+8mg/h - SD (Rohss2007)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Rohss2007_Esomeprazole.120mg(30min)+8mg/h.IV_bolus+cnt_infusion",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.7. Esomeprazole IV 120mg(2h)+8mg/h - SD (Rohss2007).",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Rohss2007_Esomeprazole.120mg(2h)+8mg/h.IV_bolus+cnt_infusion",
+                            "Color": "#FF8000"
+                        }
+                    ]
+                },
+                {
+                    "Caption": "Oral administration (model building)",
+                    "Symbol": "TriangleOpen",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.9 - Esomeprazole PO 40 mg oral solution- 5d QD (Hassan-Alin2005)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Hassan-Alin2005.Esomeprazole.40mg.po 1",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.8 - Esomeprazole PO 20 mg oral solution- 5d QD (Hassan-Alin2005).",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Hassan-Alin2005.Esomeprazole.20mg.po 1",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.12 - SD in PM (no 2C19CL) - Esomeprazole PO 40 mg - FDA",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "FDA_Esomeprazole.40mg.po_PM",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "Esomeprazole PO 40 mg capsule - 5d QD (Wilder-Smith2005)- with Fit formulation",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Wilder-Smith2005.Esomeprazole.40mg.po_Day1",
+                                "Wilder-Smith2005.Esomeprazole.40mg.po_Day5"
+                            ],
+                            "Color": "#FF8000"
+                        }
+                    ]
+                },
+                {
+                    "Caption": "Oral administration (model validation)",
+                    "Symbol": "InvertedTriangleOpen",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.9 - Esomeprazole PO 40 mg oral solution- 5d QD (Hassan-Alin2005)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Hassan-Alin2005.Esomeprazole.40mg.po 1",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.8 - Esomeprazole PO 20 mg oral solution- 5d QD (Hassan-Alin2005).",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Hassan-Alin2005.Esomeprazole.20mg.po 1",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.12 - SD in PM (no 2C19CL) - Esomeprazole PO 40 mg - FDA",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "FDA_Esomeprazole.40mg.po_PM",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.11 - SD in EM - Esomeprazole PO 40 mg- FDA - same schema as E.9",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "FDA_Esomeprazole.40mg.po_EM",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.13 - MD in EM - Esomeprazole PO 15 mg solution (Andersson2000)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson2000.Esomeprazole.15mg.po.EM",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "E.14 - MD in PM (no 2C19CL) - Esomeprazole PO 60 mg solution (Andersson2000)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson2000.Esomeprazole.60mg.po.PM",
+                            "Color": "#0080ff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "R-omeprazole concentration in plasma - mean data",
+            "SectionReference": "diagnostics-plots",
+            "Artifacts": [
+                "Plot",
+                "GMFE",
+                "Measure"
+            ],
+            "PlotTypes": [
+                "predictedVsObserved",
+                "residualsOverTime"
+            ],
+            "Groups": [
+                {
+                    "Caption": "Oral administration (model building)",
+                    "Symbol": "TriangleOpen",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "R.3 - R-omeprazole po 15 mg - 7d QD (Andersson2000) - EM",
+                            "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson2000 from Andersson2001-.R-omeprazole.15.po.EM",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "R.1 - R-omeprazole po 20 mg - 5d QD (Hassan-Alin2005)",
+                            "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Hassan-Alin2005 from Wu2014 - R-omeprazole.20mg.po",
+                                "Hassan-Alin2005 from Wu2014 - R-omeprazole.20mg.po.Day5",
+                                "Hassan-Alin2005.R-omeprazole.20mg.po"
+                            ],
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "R.2 - R-omeprazole po 40 mg - 5d QD (Hassan-Alin2005)",
+                            "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Hassan-Alin2005.R-omeprazole.40mg.po",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "R.4 - R-omeprazole po 60 mg - 7d QD (Andersson2000) - PM - CL Fit",
+                            "Output": "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson2000 from Andersson2001-.R-omeprazole.60.po.PM",
+                            "Color": "#FF8000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "Omeprazole concentration in plasma - mean data",
+            "SectionReference": "diagnostics-plots",
+            "Artifacts": [
+                "Plot",
+                "GMFE",
+                "Measure"
+            ],
+            "PlotTypes": [
+                "predictedVsObserved",
+                "residualsOverTime"
+            ],
+            "Groups": [
+                {
+                    "Caption": "Oral administration (model validation)",
+                    "Symbol": "InvertedTriangleOpen",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O8. Omeprazole po 20 mg - oral solution - SD and MD",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Hassan-Alin2005.Omeprazole.20mg.po",
+                                "Regardh1990.Omeprazole.20mg.po_7",
+                                "Regardh1990.Omeprazole.20mg.po_Median"
+                            ],
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O8. Omeprazole po 20 mg - 5d QD - capsule",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Andersson1998.Omeprazole.20mg.po_EM",
+                                "Andersson1991.Omeprazole.20mg.po_Day1",
+                                "Andersson1991.Omeprazole.20mg.po_Day5"
+                            ],
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O7. Omeprazole po 40mg - oral solution- SD and MD",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Hassan-Alin2005.Omeprazole.40mg.po",
+                                "Andersson1990.Omeprazole.40mg.po",
+                                "Andersson1991.Omeprazole.40mg.po_Day1",
+                                "Andersson1991.Omeprazole.40mg.po_Day5"
+                            ],
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O9. Omeprazole po 15 mg - oral solution - (Andersson2000) - MD in EM",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson2000 from Andersson2001-.Omeprazole.15.po.EM",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O91. Omeprazole po 80 mg - oral solution - SD",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson1990.Omeprazole.80mg.po",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O7. Omeprazole po 40 mg - 5d QD japanese - capsule - EM",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Uno2007.Omeprazole.40mg.po_hmEM",
+                                "Uno2007.Omeprazole.40mg.po_htEM"
+                            ],
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O8. Omeprazole po 20 mg - 5d QD - capsule - PM",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson1998.Omeprazole.20mg.po_PM",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O.9. Omeprazole DDI without fluvoxamine",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Yasui-Furukori2004.omeprazole.40mg.po.japanese hmEM 1",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O.1. pop - Omeprazole po 20 mg - DDI without moclobemide - (Cho2002)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Cho2002.Mean Ompz.20mg.po.EM",
+                            "Color": "#0080ff"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O.1. pop - Omeprazole po 20 mg - DDI without moclobemide - (Cho2002)_pm",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Cho2002.Mean Ompz.20mg.po.PM",
+                                "Uno2007.Omeprazole.40mg.po_PM"
+                            ],
+                            "Color": "#0080ff"
+                        }
+                    ]
+                },
+                {
+                    "Caption": "Oral administration (model building)",
+                    "Symbol": "TriangleOpen",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O92. Omeprazole po 60 mg - oral solution - MD in PM",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson2000 from Andersson2001-.Omeprazole.60.po.PM",
+                            "Color": "#FF8000"
+                        }
+                    ]
+                },
+                {
+                    "Caption": "iv administration (model building)",
+                    "Symbol": "ThinCross",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O6. Omeprazole iv 80mg",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Andersson1990.Omeprazole.80mg.iv",
+                                "Oosterhuis1992.Omeprazole.80mg.IV_5min_infusion"
+                            ],
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O1. Omeprazole iv 10 mg - SD (Regardh1990) - PM",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Regardh1990.Omeprazole.10mg.IV_5min_infusion_2",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O2. Omeprazole iv 20 mg - SD in PM (Uno2007)",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Uno2007.Omeprazole.20mg.iv bolus_PM",
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O3. Omeprazole iv 40 mg - SD",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Oosterhuis1992.Omeprazole.40mg.IV_2.5min_infusion",
+                                "Andersson1990.Omeprazole.40mg.iv",
+                                "Andersson1991.Omeprazole.40mg.iv.Day1"
+                            ],
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O4. Omeprazole iv 20 mg - SD",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Andersson1991.Omeprazole.20mg.iv.Day1",
+                                "Uno2007.Omeprazole.20mg.iv bolus_hmEM"
+                            ],
+                            "Color": "#FF8000"
+                        },
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O5. Omeprazole iv 10mg",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": [
+                                "Regardh1990.Omeprazole.10mg.IV_5min_infusion_7",
+                                "Regardh1990.Omeprazole.10mg.IV_5min_infusion_Median"
+                            ],
+                            "Color": "#FF8000"
+                        }
+                    ]
+                },
+                {
+                    "Caption": "iv administration (model validation)",
+                    "Symbol": "ThinPlus",
+                    "OutputMappings": [
+                        {
+                            "Project": "Omeprazole",
+                            "Simulation": "O5. Omeprazole iv 10mg",
+                            "Output": "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+                            "ObservedData": "Andersson1991.Omeprazole.10mg.iv.Day1",
+                            "Color": "#0080ff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
         "ComparisonTimeProfilePlots": [],
         "DDIRatioPlots": [],
         "PKRatioPlots": []
