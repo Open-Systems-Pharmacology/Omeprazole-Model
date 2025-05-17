@@ -13,7 +13,7 @@ This repository contains:
 
 
 
-The presented PBPK model of omeprazole has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with omeprazole as a substrate of CYP2C19 and CYP3A4 and an inhibitor of CYP2C19. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
+The presented PBPK model of omeprazole has been developed to be used in a PBPK Drug-Drug Interactions (DDI) network with omeprazole as a substrate of CYP2C19 and CYP3A4 and an inhibitor of CYP2C19. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
 
 ## Contacts
 For your questions and comments about the models please create a new [issue](https://github.com/Open-Systems-Pharmacology/Omeprazole-Model/issues). A full publication about models presented is available at: https://www.mdpi.com/1999-4923/12/12/1191 .

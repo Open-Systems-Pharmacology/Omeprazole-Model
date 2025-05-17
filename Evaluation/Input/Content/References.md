@@ -4,7 +4,7 @@
 
 **Andersson 1998** Andersson T, Holmberg J, Röhss K, Walan A. Pharmacokinetics and effect on caffeine metabolism of the proton pump inhibitors, omeprazole, lansoprazole, and pantoprazole. *Br J Clin Pharmacol*. 1998;45(4):369-375.
 
-**Andersson 2000** Andersson T, Rohss K, Hassan-alin M, et al. Pharmacokinetics (PK) and effect on pentagastrin stimulated peak acid output (PAO) of omeprazole (O) and its 2 optical isomers, S-omeprazole/esomeprazole (E) and R-omeprazole (R-O). *Gastroenterology*. 118(4):A1210
+**Andersson 2000** Andersson T, Rohss K, Hassan-Alin M, et al. Pharmacokinetics (PK) and effect on pentagastrin stimulated peak acid output (PAO) of omeprazole (O) and its 2 optical isomers, S-omeprazole/esomeprazole (E) and R-omeprazole (R-O). *Gastroenterology*. 118(4):A1210
 
 **Äbelö 2000** Äbelö A, Andersson TB, Antonsson M, Naudot AK, Skanberg I, Weidolf L. Stereoselective metabolism of omeprazole by human cytochrome P450 enzymes. *Drug Metab Dispos*. 2000;28(8):966-972.
 
